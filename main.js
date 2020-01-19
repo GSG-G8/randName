@@ -3,7 +3,7 @@ const randSingle = document.querySelector('#single');
 const result = document.querySelector('#result');
 
 // github name
-const names = ['alaa-yasin', 'AlaaTaima', 'Amoodaa', 'asem1789', 'Asmaathabet', 'fadeomar', 'FadiAlamassi', 'fares98', 'hashemt', 'MaiUbeid', 'MohammadAlhalaq', 'Mohammed-Q96', 'mossa-Sammer', 'ranasobeid95', 'SajedaIsmail', 'yosefalnajjarofficial'];
+const names = ['Abeer Karam', 'ahmad salah', 'Ahmed Safi', 'Alaa Saadeddin','Ali Dahdouh', 'Hassan Al-Najjar', 'lina Barbakh', 'Lina Ebeid', 'mariam isa', 'mohammed Flaifel', 'Mohammed Alghazali', 'Mohammed Irheem', 'Muhammad Abdulhadi', 'omar dahdouh', 'Rawan', 'Rehab Ali'];
 
 const checkPair = (pairs, firstPair, secondPair) => pairs.some(pair => pair[0] === names[firstPair] || pair[0] === names[secondPair] || pair[1] === names[firstPair] || pair[1] === names[secondPair])
 
